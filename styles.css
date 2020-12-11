@@ -35,7 +35,7 @@
 html {
   font-size: 62.5%;
   font-family: var(--font-sans);
-  scroll-behavior:smooth;
+  scroll-behavior: smooth;
 }
 header {
   position: relative;
@@ -152,20 +152,20 @@ main {
 }
 
 .main-currency-table {
-    width: 50%;
-    min-width: 235px;
-    max-width: 500px;
-    /* height: 360px; */
-    margin: 0 auto;
-    font-family: var(--font-inter);
-    /* display: flex; */
-    /* position: relative; */
-    /* justify-content: center; */
-    display: flex;
-    gap: 3px;
-    overflow-x: scroll;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
+  width: 50%;
+  min-width: 235px;
+  max-width: 500px;
+  /* height: 360px; */
+  margin: 0 auto;
+  font-family: var(--font-inter);
+  /* display: flex; */
+  /* position: relative; */
+  /* justify-content: center; */
+  display: flex;
+  gap: 3px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
 }
 .main-currency-table1,
 .main-currency-table2 {
@@ -303,7 +303,7 @@ main {
 .currency-table-comission--date p {
   font-size: 1.2rem;
 }
-.actuallity{
+.actuallity {
   font-size: 1.4rem;
 }
 
@@ -419,22 +419,22 @@ main {
   font-weight: bold;
   line-height: 2.6rem;
 }
-.planes-container--slider{
+.planes-container--slider {
   display: flex;
   height: 316px;
-/*   gap: 5px; */
+  width: 75%;
+  /*   gap: 5px; */
   /* overflow: hidden; */
   overflow-x: scroll;
-  overscroll-behavior-x:contain;
+  overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
-  
 }
 .main-planes-container {
   width: 100%;
   min-width: 320px;
   padding-bottom: 70px;
-  text-align: center;
-  background-color:var(--off-white);
+  text-align: -webkit-center;
+  background-color: var(--off-white);
 }
 .planes--tittle {
   width: 90%;
@@ -457,7 +457,7 @@ main {
   line-height: 1.8rem;
   color: #757575;
 }
-.planes-container-card{
+.planes-container-card {
   position: relative;
   scroll-snap-align: center;
   width: 65%;
@@ -465,53 +465,49 @@ main {
   max-width: 230px;
   height: 250px;
   margin: 50px 5px 0;
- 
+
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
-
 }
 
-.recommended{
+.recommended {
   position: absolute;
   width: 120px;
   height: 31px;
   left: calc(50% - 60px);
   top: -15px;
   font-size: 1.2rem;
-  padding:6px;
+  padding: 6px;
   background-color: var(--bitcoin-orange);
   border-radius: 8px;
   color: var(--just-white);
 }
-.planes-card--tittle{
+.planes-card--tittle {
   padding-top: 30px;
   font-size: 1.4rem;
   font-weight: 500;
   color: var(--black);
   line-height: 1.8rem;
-
 }
-.planes-card--price{
-  padding:5px 0;
+.planes-card--price {
+  padding: 5px 0;
   font-size: 5.2rem;
   font-weight: bold;
   line-height: 5.3rem;
   color: var(--black);
-
 }
-.planes-card--price span{
+.planes-card--price span {
   font-size: 1.2rem;
   font-weight: 300;
   vertical-align: text-top;
-  
 }
-.planes-card--saving{
+.planes-card--saving {
   font-size: 1.2rem;
-  color:#757575 ;
+  color: #757575;
 }
-.planes-card--ca{
+.planes-card--ca {
   width: 150px;
   height: 48px;
   margin-top: 20px;
@@ -524,58 +520,56 @@ main {
   color: var(--black);
   font-family: var(--font-sans);
 }
-.planes-card--ca span{
+.planes-card--ca span {
   display: inline-block;
   width: 20px;
   height: 20px;
   background-image: url("./assets/icons/orange-right-arrow.svg");
   vertical-align: text-bottom;
-
 }
 
-footer{
-display: flex;
-width: 100%;
-min-width: 320px;
-height: 150px;
-background-color: var(--bitcoin-orange);
-
+footer {
+  display: flex;
+  width: 100%;
+  min-width: 320px;
+  height: 150px;
+  background-color: var(--bitcoin-orange);
 }
-footer section{
-display: flex;
-width: 50%;
+footer section {
+  display: flex;
+  width: 50%;
 
-justify-content: center;
-align-items: center;
+  justify-content: center;
+  align-items: center;
 }
-footer .left ul{
+footer .left ul {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
   list-style: none;
-  
 }
-.left li{
+.left li {
   margin: 10px 0;
 }
-.left a{
+.left a {
   text-decoration: none;
   color: var(--just-white);
 }
 
-/* @keyframes rotaImgBitcoin {
+@keyframes rotaImgBitcoin {
   0% {
     transform: rotate(0);
   }
   100% {
     transform: rotate(360deg);
-  } */
+  }
 }
-/* @keyframes rotaSnack {
+
+@keyframes rotaSnack {
   0% {
     transform: rotate(0);
   }
   100% {
     transform: rotate(360deg);
   }
-} */
+}
