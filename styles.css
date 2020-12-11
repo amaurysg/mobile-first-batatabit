@@ -411,7 +411,16 @@ main {
   font-weight: bold;
   line-height: 2.6rem;
 }
-
+.planes-container--slider{
+  display: flex;
+  height: 316px;
+/*   gap: 5px; */
+  /* overflow: hidden; */
+  overflow-x: scroll;
+  overscroll-behavior-x:contain;
+  scroll-snap-type: x proximity;
+  
+}
 .main-planes-container {
   width: 100%;
   min-width: 320px;
@@ -442,11 +451,13 @@ main {
 }
 .planes-container-card{
   position: relative;
+  scroll-snap-align: center;
   width: 65%;
   min-width: 230px;
   max-width: 300px;
   height: 250px;
-  margin: 50px auto 0;
+  margin: 50px 5px 0;
+ 
   padding: 0 15px;
   background-color: var(--just-white);
   border-radius: 15px;
