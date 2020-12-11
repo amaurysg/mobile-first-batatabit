@@ -1,3 +1,11 @@
+header img {
+  width: 200px;
+  height: 60px;
+  margin-top: 30px;
+}
+.header--tittle-container {
+  margin-top: 20px;
+}
 .header--tittle-container h1 {
   font-size: 5.4rem;
   line-height: 4.6rem;
@@ -16,6 +24,27 @@
   gap: 30px;
   overflow-x: initial;
 }
+.product-detail-tittle h2 {
+  font-size: 3.4rem;
+}
+.product-detail-tittle p {
+  font-size: 1.8rem;
+}
+.product--card--tittle {
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+.product--card--body {
+  font-size: 1.6rem;
+}
+.icon-snack {
+  height: 60px;
+  width: 60px;
+}
+.product-detail--card .icon-card {
+  height: 25px;
+  width: 25px;
+}
 .product-cards--container {
   display: flex;
   flex-wrap: wrap;
@@ -25,10 +54,28 @@
 .bitcoin-img-container h2 {
   font-size: 5.4rem;
 }
-.actuallity {
-  font-size: 1.4rem;
+.planes--tittle h2 {
+  font-size: 4.4rem;
 }
+.planes--tittle p {
+  font-size: 1.8rem;
+}
+
 .planes-container--slider {
   justify-content: center;
   overflow-x: initial;
+}
+
+footer {
+  height: 230px;
+}
+
+footer .left ul {
+  font-size: 2rem;
+}
+.left li {
+  margin: 20px 0;
+}
+.right img {
+  height: 80px;
 }
