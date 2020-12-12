@@ -167,6 +167,14 @@ main {
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
 }
+.main-currency-table::-webkit-scrollbar {
+  background-color: var(--soft-orange);
+  height: 3px;
+}
+.main-currency-table::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orange);
+}
+
 .main-currency-table1,
 .main-currency-table2 {
   /* position: absolute; */
@@ -421,14 +429,26 @@ main {
 }
 .planes-container--slider {
   display: flex;
+  position: relative;
   height: 316px;
   width: 75%;
+  /* justify-content: center; */
   /*   gap: 5px; */
   /* overflow: hidden; */
-  overflow-x: scroll;
+  overflow-x: auto;
   overscroll-behavior-x: contain;
   scroll-snap-type: x proximity;
+  scroll-margin-inline: center;
 }
+
+.planes-container--slider::-webkit-scrollbar {
+  background-color: var(--soft-orange);
+  height: 3px;
+}
+.planes-container--slider::-webkit-scrollbar-thumb {
+  background-color: var(--bitcoin-orange);
+}
+
 .main-planes-container {
   width: 100%;
   min-width: 320px;
@@ -483,6 +503,12 @@ main {
   background-color: var(--bitcoin-orange);
   border-radius: 8px;
   color: var(--just-white);
+}
+.recommended.vip {
+  background-color: var(--secondary-blue);
+}
+.recommended.plus {
+  background-color: green;
 }
 .planes-card--tittle {
   padding-top: 30px;
